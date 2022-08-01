@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Diagram as Code - The Book - WAXC Technology Open Source</title>
+        <title>Diagram as Code - The Book - WAXC Technology Foundation</title>
 
 
         <!-- Custom HTML head -->
@@ -83,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Development Environment</li><li class="chapter-item expanded "><a href="Dev-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="Dev-IDE.html"><strong aria-hidden="true">2.</strong> IntelliJ IDE</a></li><li class="chapter-item expanded "><a href="Dev-Git.html"><strong aria-hidden="true">3.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="Dev-Rust.html"><strong aria-hidden="true">4.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="Dev-Diagram.html" class="active"><strong aria-hidden="true">5.</strong> Diagram as Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><a href="Data-Fraud-Detection.html"><strong aria-hidden="true">6.</strong> Fraud Detection</a></li><li class="chapter-item expanded "><a href="Architecture.html"><strong aria-hidden="true">7.</strong> Architecture Design</a></li><li class="chapter-item expanded "><a href="Compliance.html"><strong aria-hidden="true">8.</strong> Compliance</a></li><li class="chapter-item expanded "><a href="MIT-System-Dynamics.html"><strong aria-hidden="true">9.</strong> Social Dynamics</a></li><li class="chapter-item expanded affix "><li class="part-title">Technology</li><li class="chapter-item expanded "><a href="Blockchain.html"><strong aria-hidden="true">10.</strong> Blockchain</a></li><li class="chapter-item expanded "><a href="Computer-Science.html"><strong aria-hidden="true">11.</strong> Computer Science</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><div>Contributors</div></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Development Environment</li><li class="chapter-item expanded "><a href="Dev-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="Dev-IDE.html"><strong aria-hidden="true">2.</strong> IntelliJ IDE</a></li><li class="chapter-item expanded "><a href="Dev-Git.html"><strong aria-hidden="true">3.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="Dev-Rust.html"><strong aria-hidden="true">4.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="Dev-Diagram.html" class="active"><strong aria-hidden="true">5.</strong> Diagram as Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><a href="Econ-Opensource.html"><strong aria-hidden="true">6.</strong> Risk - Open Source Model</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Risk - Probability</div></li><li class="chapter-item expanded "><a href="Arc-EventDriven.html"><strong aria-hidden="true">8.</strong> Architecture - Domain Driven Design</a></li><li class="chapter-item expanded "><a href="Arc-EventDriven.html"><strong aria-hidden="true">9.</strong> Architecture - Modularity</a></li><li class="chapter-item expanded "><a href="Compliance.html"><strong aria-hidden="true">10.</strong> Measurement - Compliance </a></li><li class="chapter-item expanded "><a href="Data-Fraud-Detection.html"><strong aria-hidden="true">11.</strong> Measurement - Fraud Detection</a></li><li class="chapter-item expanded "><a href="MIT-System-Dynamics.html"><strong aria-hidden="true">12.</strong> Social Dynamics</a></li><li class="chapter-item expanded "><a href="Econ-Opensource.html"><strong aria-hidden="true">13.</strong> Open source Model</a></li><li class="chapter-item expanded affix "><li class="part-title">Technology</li><li class="chapter-item expanded "><a href="Blockchain.html"><strong aria-hidden="true">14.</strong> Blockchain</a></li><li class="chapter-item expanded "><a href="Computer-Science.html"><strong aria-hidden="true">15.</strong> Computer Science</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><div>Contributors</div></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -112,7 +112,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">The Book - WAXC Technology Open Source</h1>
+                    <h1 class="menu-title">The Book - WAXC Technology Foundation</h1>
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
@@ -160,9 +160,11 @@
 <li>Material design icon</li>
 <li>Directed/ undirected graph, Mindmap</li>
 </ul>
+<h1 id="presentation-slide-using-markdown"><a class="header" href="#presentation-slide-using-markdown">Presentation slide using markdown</a></h1>
+<p><a href="https://github.com/gitpitch/gitpitch">gitpitch</a></p>
 <h1 id="plantuml-installation"><a class="header" href="#plantuml-installation">Plantuml Installation</a></h1>
 <ul>
-<li><code>$cargo install mdbook-graphviz</code></li>
+<li><code>$cargo install mdbook-graphviz</code> //change preprocessor.rs to- pub static INFO_STRING_PREFIX: &amp;str = &quot;graphviz&quot;;</li>
 <li><code>$cargo install mdbook-plantuml</code> : require to change source code for &quot;graphviz&quot;</li>
 <li><code>$brew install graphviz</code> : current 3.0.0</li>
 <li><code>$brew install plantuml</code> : current 1.2022.5</li>
@@ -241,7 +243,7 @@ plantuml-cmd=&quot;/usr/local/bin/plantuml&quot;
 <li><a href="https://github.com/dcasati/kubernetes-PlantUML">more k8s example</a></li>
 </ul>
 <p>PlantUML rendering error:
-PlantUML did not generate an image, did you forget the @startuml, @enduml block (/usr/local/bin/plantuml -tsvg -nometadata /var/folders/th/c_6w7gtd299fh13whmfhgsq80000gn/T/.tmpDI8oCn/bea6074f3e96ab33929173613e1100c0b6b7bb2f.puml)?</p>
+PlantUML did not generate an image, did you forget the @startuml, @enduml block (/usr/local/bin/plantuml -tsvg -nometadata /var/folders/th/c_6w7gtd299fh13whmfhgsq80000gn/T/.tmpiUrdHx/bea6074f3e96ab33929173613e1100c0b6b7bb2f.puml)?</p>
 <h1 id="domain-storytelling"><a class="header" href="#domain-storytelling">Domain Storytelling</a></h1>
 <p><a href="https://github.com/johthor/DomainStory-PlantUML">ref</a></p>
 <p><img src="mdbook-plantuml-img/d43948757d9e1640f471308991acce4407e7da9c.svg" alt="" /></p>
@@ -289,7 +291,7 @@ PlantUML did not generate an image, did you forget the @startuml, @enduml block 
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next" href="Data-Fraud-Detection.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="Econ-Opensource.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -303,13 +305,29 @@ PlantUML did not generate an image, did you forget the @startuml, @enduml block 
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next" href="Data-Fraud-Detection.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="Econ-Opensource.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

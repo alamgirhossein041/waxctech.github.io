@@ -92,7 +92,19 @@
 - `$cmd1 && cmd2`: Run cmd2 if cmd1 is successful
 - `$cmd1 || cmd2`: Run cmd2 if cmd1 is not successful
 - `$cmd &`: Run cmd in a subshell
- 
+
+# backup dictionary
+# backup Line data
+`/Users/mac/Library/Containers/jp.naver.line.mac/Data/Library/Containers`
+
+# parallels keyboard settings
+  ** cmd+left = home
+  ** shift+cmd+left = shfit+home
+  ** cmd+right= end
+  ** shift + cmd+ right= shift+end
+  ** cmd=ctrl
+
+
 # Reference
 - [sed and awk cheatsheet](https://www.thegeekstuff.com/sed-awk-101-hacks-ebook/)
 - [Practical Unix from Stanford](https://practicalunix.org/)

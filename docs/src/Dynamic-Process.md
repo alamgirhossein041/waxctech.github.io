@@ -86,7 +86,7 @@ Discover a variety of visual management techniques.
 [](https://www.claruscommerce.com/blog/7-types-of-loyalty-programs-which-is-right-for-your-brand/)
 
 # Graph Intelligence
-(https://www.graphistry.com/blog/what-is-graph-intelligence-how-and-why-the-best-companies-are-adopting-graph-visual-analytics-graph-ai-and-graph-neural-networks)
+[](https://www.graphistry.com/blog/what-is-graph-intelligence-how-and-why-the-best-companies-are-adopting-graph-visual-analytics-graph-ai-and-graph-neural-networks)
 [temporal knowledge Graph](https://analyticsindiamag.com/all-you-need-to-know-about-temporal-knowledge-graphs/)
 [AWS knowledge graph](https://www.amazon.science/blog/combining-knowledge-graphs-quickly-and-accurately)
 [GNN with rust](https://darianharrison89.medium.com/graph-neural-networks-with-rust-4681fee71933)

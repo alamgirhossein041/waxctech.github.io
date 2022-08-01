@@ -1,4 +1,4 @@
-
+[CS video course](https://github.com/Developer-Y/cs-video-courses)
 
 [Stanford CS242 Programming Languages (in Rust)](https://stanford-cs242.github.io/f19/)
 ## Topics
@@ -144,6 +144,27 @@
 - Tor
 - Policy vs Mechanism
 
+[MIT 6.824 MIT 6.824 Distributed Systems (Spring 2020)](https://www.classcentral.com/course/youtube-mit-6-824-distributed-systems-spring-2020-53357)
+Lecture 1: Introduction.
+Lecture 2: RPC and Threads.
+Lecture 3: GFS.
+Lecture 4: Primary-Backup Replication.
+Lecture 5: Go, Threads, and Raft.
+Lecture 6: Fault Tolerance: Raft (1).
+Lecture 7: Fault Tolerance: Raft (2).
+Lecture 8: Zookeeper.
+Lecture 9: More Replication, CRAQ.
+Lecture 10: Cloud Replicated DB, Aurora.
+Lecture 11: Cache Consistency: Frangipani.
+Lecture 12: Distributed Transactions.
+Lecture 13: Spanner.
+Lecture 14: Optimistic Concurrency Control.
+Lecture 15: Big Data: Spark.
+Lecture 16: Cache Consistency: Memcached at Facebook.
+Lecture 17: COPS, Causal Consistency.
+Lecture 18: Fork Consistency, Certificate Transparency.
+Lecture 19: Bitcoin.Lecture 20: Blockstack.
+
 [MIT 18.S191 Introduction to computational thinking (in Julia)](https://ocw.mit.edu/courses/mathematics/18-s191-introduction-to-computational-thinking-fall-2020/index.htm)
 
 [6.036	Introduction to Machine Learning (in Python)](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/)
@@ -259,12 +280,66 @@ Week 6: Intractable Problems and NP-completeness
 - Embedded Languages
 
 [MITX 685 advance data structure](https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/video_galleries/lecture-videos/)
-
 [MIT 14.13 PSYCHOLOGY AND ECONOMICS](https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/)
-
 [Stanford CS249i The Modern Internet 2021](https://cs249i.stanford.edu/)
 [Stanford CS251: Cryptocurrencies and Blockchain Technologies](https://cs251.stanford.edu/)
 [Stanford CS224W: Machine Learning with Graphs](https://web.stanford.edu/class/cs224w/)
 [Stanford CS145: Data Management and Data Systems](https://cs145-fa21.github.io/)
 [Stanford CS253 web security](https://web.stanford.edu/class/cs253/)
 [Stanford CS - CS349D: Cloud Computing Technology](https://web.stanford.edu/class/cs349d/)
+
+
+
+## Stanford Online
+# Mining Massive Data Sets Graduate Certificate
+* CS224W Social and Information Network Analysis
+* CS229 Machine Learning
+* CS246 Mining Massive Data Sets
+* CS276 Information Retrieval and Web Search
+
+# Professional  - Stanford Advanced Computer Security Certificate
+https://scpd.stanford.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=1145836
+
+* XACS130 Using Cryptography Correctly
+* XACS131 Writing Secure Code
+* XACS133 Exploiting and Protecting Web Applications
+* XACS101 Software Security Foundations
+* XACS215 Mobile Security
+* XACS255 Network Security
+*  XACS301 Emerging Threats & Defenses
+*  XACS302 Cyber Security and Executive Strategy
+
+
+# Artificial Intelligence Graduate Certificate
+<https://scpd.stanford.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=1226717>
+
+* CS157 Logic and Automated Reasoning
+* CS221 Artificial Intelligence: Principles and Techniques
+* CS205A Mathematical Methods for Robotics, Vision, & Graphics
+* CS223A Introduction to Robotics
+* CS224N Natural Language Processing with Deep Learning
+* CS228 Probabilistic Graphical Models: Principles and Techniques
+* CS229 Machine Learning
+* CS231A Computer Vision: From 3D Reconstruction to Recognition
+* CS231N Convolutional Neural Networks for Visual Recognition
+* AA228 Decision Making Under Uncertainty
+
+
+# Advanced Software Systems Graduate Certificate
+* CS240 Advanced Topics in Operating Systems
+* CS243 Program Analysis and Optimizations
+* CS245 Database Systems Principles
+* CS255 Introduction to Cryptography
+* CS347 Parallel and Distributed Data Management
+* CS348A Computer Graphics: Geometric Modeling
+* CS244B Distributed Systems
+
+
+# Cyber Security Graduate Certificate
+<https://scpd.stanford.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=58042240>
+* CS140 Operating Systems and Systems Programming
+* CS144 Introduction to Computer Networking
+* CS155 Computer and Network Security
+* CS251 Bitcoin and Crypto Currencies
+* CS255 Introduction to Cryptography
+* MS&E293 Technology and National Security

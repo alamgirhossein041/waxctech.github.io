@@ -13,9 +13,12 @@
 - Material design icon
 - Directed/ undirected graph, Mindmap
 
+# Presentation slide using markdown
+[gitpitch](https://github.com/gitpitch/gitpitch)
+
 # Plantuml Installation
 
-- `$cargo install mdbook-graphviz`
+- `$cargo install mdbook-graphviz` //change preprocessor.rs to- pub static INFO_STRING_PREFIX: &str = "graphviz";
 - `$cargo install mdbook-plantuml` : require to change source code for "graphviz"
 - `$brew install graphviz` : current 3.0.0
 - `$brew install plantuml` : current 1.2022.5
@@ -958,3 +961,4 @@ $$ \mu = \frac{1}{N} \sum_{i=0} x_i $$
 - [mermaid demo](https://github.com/mermaid-js/mermaid)
 - [cargo dependency graph](https://github.com/kbknapp/cargo-graph)
 - [Tutorial on Plantuml](https://crashedmind.github.io/PlantUMLHitchhikersGuide/index.html)
+

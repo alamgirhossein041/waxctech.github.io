@@ -56,3 +56,18 @@ https://sinoglobalcap.medium.com/why-we-are-bullish-on-solana-c2be784cfdf6
 [CIVIC with solana](https://www.coindesk.com/business/2021/09/23/why-civic-is-building-defi-identity-tools-on-solana/)
 [CBI report Q1, 2022](https://www.cbinsights.com/reports/CB-Insights_Blockchain-Report-Q1-2022.pdf?)
     - 600B annual global investment, around 150B per quarter. Blockchain has taken 10% of total 
+
+
+# Cyptopunk
+Jacob Appelbaum: Tor developer
+Julian Assange: Founder of WikiLeaks
+Dr Adam Back: Inventor of Hashcash, co-founder of Blockstream
+Bram Cohen: Creator of BitTorrent
+Hal Finney: Main author of PGP 2.0, creator of Reusable Proof of Work
+Tim Hudson: Co-author of SSLeay, the precursor to OpenSSL
+Paul Kocher: Co-author of SSL 3.0
+Moxie Marlinspike: Founder of Open Whisper Systems (developer of Signal)
+Steven Schear: Creator of the concept of the "warrant canary"
+Bruce Schneier: Well-known security author
+Zooko Wilcox-O'Hearn: DigiCash developer, Founder of Zcash
+Philip Zimmermann: Creator of PGP 1.0

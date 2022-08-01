@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Fraud Detection - The Book - WAXC Technology Open Source</title>
+        <title>Measurement - Fraud Detection - The Book - WAXC Technology Foundation</title>
 
 
         <!-- Custom HTML head -->
@@ -83,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Development Environment</li><li class="chapter-item expanded "><a href="Dev-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="Dev-IDE.html"><strong aria-hidden="true">2.</strong> IntelliJ IDE</a></li><li class="chapter-item expanded "><a href="Dev-Git.html"><strong aria-hidden="true">3.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="Dev-Rust.html"><strong aria-hidden="true">4.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="Dev-Diagram.html"><strong aria-hidden="true">5.</strong> Diagram as Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><a href="Data-Fraud-Detection.html" class="active"><strong aria-hidden="true">6.</strong> Fraud Detection</a></li><li class="chapter-item expanded "><a href="Architecture.html"><strong aria-hidden="true">7.</strong> Architecture Design</a></li><li class="chapter-item expanded "><a href="Compliance.html"><strong aria-hidden="true">8.</strong> Compliance</a></li><li class="chapter-item expanded "><a href="MIT-System-Dynamics.html"><strong aria-hidden="true">9.</strong> Social Dynamics</a></li><li class="chapter-item expanded affix "><li class="part-title">Technology</li><li class="chapter-item expanded "><a href="Blockchain.html"><strong aria-hidden="true">10.</strong> Blockchain</a></li><li class="chapter-item expanded "><a href="Computer-Science.html"><strong aria-hidden="true">11.</strong> Computer Science</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><div>Contributors</div></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Development Environment</li><li class="chapter-item expanded "><a href="Dev-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="Dev-IDE.html"><strong aria-hidden="true">2.</strong> IntelliJ IDE</a></li><li class="chapter-item expanded "><a href="Dev-Git.html"><strong aria-hidden="true">3.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="Dev-Rust.html"><strong aria-hidden="true">4.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="Dev-Diagram.html"><strong aria-hidden="true">5.</strong> Diagram as Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><a href="Econ-Opensource.html"><strong aria-hidden="true">6.</strong> Risk - Open Source Model</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Risk - Probability</div></li><li class="chapter-item expanded "><a href="Arc-EventDriven.html"><strong aria-hidden="true">8.</strong> Architecture - Domain Driven Design</a></li><li class="chapter-item expanded "><a href="Arc-EventDriven.html"><strong aria-hidden="true">9.</strong> Architecture - Modularity</a></li><li class="chapter-item expanded "><a href="Compliance.html"><strong aria-hidden="true">10.</strong> Measurement - Compliance </a></li><li class="chapter-item expanded "><a href="Data-Fraud-Detection.html" class="active"><strong aria-hidden="true">11.</strong> Measurement - Fraud Detection</a></li><li class="chapter-item expanded "><a href="MIT-System-Dynamics.html"><strong aria-hidden="true">12.</strong> Social Dynamics</a></li><li class="chapter-item expanded "><a href="Econ-Opensource.html"><strong aria-hidden="true">13.</strong> Open source Model</a></li><li class="chapter-item expanded affix "><li class="part-title">Technology</li><li class="chapter-item expanded "><a href="Blockchain.html"><strong aria-hidden="true">14.</strong> Blockchain</a></li><li class="chapter-item expanded "><a href="Computer-Science.html"><strong aria-hidden="true">15.</strong> Computer Science</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><div>Contributors</div></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -112,7 +112,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">The Book - WAXC Technology Open Source</h1>
+                    <h1 class="menu-title">The Book - WAXC Technology Foundation</h1>
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
@@ -144,12 +144,57 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p>articles on market opportunity
-<a href="https://www.gminsights.com/industry-analysis/fraud-detection-and-prevention-market">1</a>
+                        <h1 id="security-practices"><a class="header" href="#security-practices">security practices</a></h1>
+<ul>
+<li>
+<p>use yubikey hardware (backup) key and authenticator OTP by default
+dev guide on webauthn, OTP, U2F, oath, PGP, PIV, </p>
+</li>
+<li>
+<p>https://developers.yubico.com/
+<a href="https://support.yubico.com/hc/en-us/articles/360016649059">Using Your YubiKey as a Smart Card in macOS</a>
+<code>sc_auth pairing_ui -s enable</code>
+<code>sc_auth pairing_ui -f</code></p>
+</li>
+<li>
+<p>access site via desktop app, bookmark, not google search
+<a href="https://www.yubico.com/resources/">yubikey auth resource</a>
+<a href="https://www.lastpass.com/resources">zero knowledge</a>
+<a href="https://www.nist.gov/cybersecurity">NIST</a>
+<a href="https://content.microfocus.com/state-of-application-security-testing-tb/deliver-security-as-code?lx=QKJph-&amp;utm_source=techbeacon&amp;utm_medium=techbeacon&amp;utm_campaign=7014J000000dVA4QAM">security as code</a>
+<a href="https://content.microfocus.com/appsec-tools-2021-tb/top-open-source-tool?lx=_uoJSd&amp;utm_source=techbeacon&amp;utm_medium=referral&amp;utm_campaign=7014J000000dVA4QAM&amp;utm_term=keeplearning&amp;utm_content=security">open source secruity tools</a></p>
+</li>
+<li>
+<p><a href="https://techbeacon.com/security/why-developers-dislike-security-what-you-can-do-about-it">Why developers dislike security—and what you can do about it</a></p>
+</li>
+</ul>
+<h1 id="international-password-standard"><a class="header" href="#international-password-standard">international password standard</a></h1>
+<p><a href="https://webhostingprof.com/blog/password-statistics/">Password Statistics in 2022 – How to Save &amp; Protect Your Data</a></p>
+<p>https://www.lightbluetouchpaper.org/2010/07/27/passwords-in-the-wild-part-i-the-gap-between-theory-and-implementation/
+https://nakedsecurity.sophos.com/2016/08/18/nists-new-password-rules-what-you-need-to-know/
+https://csrc.nist.gov/
+https://www.liquidweb.com/kb/top-10-2019-password-security-standards/
+(https://wpengine.com/resources/passwords-unmasked-infographic/)
+https://www.troyhunt.com/science-of-password-selection/
+https://en.wikipedia.org/wiki/Password_strength</p>
+<h1 id="fraud-and-eu-compliance"><a class="header" href="#fraud-and-eu-compliance">fraud and EU compliance</a></h1>
+<p>https://www.natlawreview.com/article/eu-blow-against-black-box-and-road-map-to-compliance
+https://seon.io/resources/gdpr-compliance-in-fraud-detection/
+https://www.prnewswire.com/news-releases/eagleai-saas-platform-for-fraud-detection-compliance-and-trading-risk-management-is-now-available-in-aws-marketplace-301370924.html
+<a href="https://oroinc.com/b2b-ecommerce/blog/psd2-compliance-what-you-need-to-know/">PSD2 compliance</a>
+<a href="https://thepaypers.com/expert-opinion/2020-fraud-trends-are-you-prepared-for-what-the-future-holds--1240302">fraud trend</a>
+Implementation of Effective Measures against Fraud and Illegal Activities in Cohesion Policies
+(https://eucrim.eu/articles/implementation-effective-measures-against-fraud-and-illegal-activities-cohesion-policies/)</p>
+<h1 id="articles-on-market-opportunity"><a class="header" href="#articles-on-market-opportunity">articles on market opportunity</a></h1>
+<p><a href="https://www.gminsights.com/industry-analysis/fraud-detection-and-prevention-market">1</a>
 <a href="https://www.fortunebusinessinsights.com/industry-reports/fraud-detection-and-prevention-market-100231">2</a>
 <a href="https://www.grandviewresearch.com/industry-analysis/fraud-detection-prevention-market">3</a>
 <a href="https://www.globenewswire.com/news-release/2019/07/17/1883895/0/en/Global-Fraud-Detection-and-Prevention-Market-Report-2019-Historical-Data-2014-2017-Base-Year-of-2018-2019-Estimates-Forecasts-2020-2024.html">4</a>
 <a href="https://www.mordorintelligence.com/industry-reports/global-fraud-detection-and-prevention-fdp-market-industry">5</a></p>
+<p>#DID:
+Understanding the European Self-Sovereign Identity Framework (ESSIF) – Daniël Du Seuil and Carlos Pastor – Webinar 32
+(https://ssimeetup.org/understanding-european-self-sovereign-identity-framework-essif-daniel-du-seuil-carlos-pastor-webinar-32/)
+<a href="https://ec.europa.eu/digital-building-blocks/wikis/display/ebsi">EBSI</a></p>
 <h1 id="fraud-detection-market-size"><a class="header" href="#fraud-detection-market-size">Fraud Detection Market Size</a></h1>
 <p>A typical IT service deployment may cost between $75 to $300 per users <sup class="footnote-reference"><a href="#a">1</a></sup>
 <sup class="footnote-reference"><a href="#a">1</a></sup>: https://www.industryarc.com/Research/IT-Services-Market-Research-501180</p>
@@ -162,7 +207,9 @@ https://www.marketsandmarkets.com/Market-Reports/fraud-detection-prevention-mark
 <a href="https://www.statista.com/outlook/tmo/public-cloud/united-states">market statistics</a>
 [financial im</p>
 <h1 id="anomaly-detection"><a class="header" href="#anomaly-detection">Anomaly Detection</a></h1>
-<p><a href="https://ff12.fastforwardlabs.com/">Deep Learning for Anomaly Detection</a>
+<p><a href="https://learn.netdata.cloud/docs/agent/collectors/python.d.plugin/anomalies">netdata</a>
+<a href="https://blog.griddynamics.com/unsupervised-real-time-anomaly-detection/">Unsupervised real time anomaly detection</a>
+<a href="https://ff12.fastforwardlabs.com/">Deep Learning for Anomaly Detection</a>
 <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152173">A Comparative Evaluation of Unsupervised Anomaly Detection Algorithms for Multivariate Data</a>
 <a href="https://arxiv.org/pdf/2007.02500.pdf">Deep Learning for Anomaly Detection: A Review</a>
 <a href="https://medium.com/@himsmittal/open-source-anomaly-detection-projects-2437dacfc901">open source anomaly detection</a>
@@ -188,11 +235,11 @@ https://www.marketsandmarkets.com/Market-Reports/fraud-detection-prevention-mark
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="Dev-Diagram.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="Compliance.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next" href="Architecture.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="MIT-System-Dynamics.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -202,17 +249,33 @@ https://www.marketsandmarkets.com/Market-Reports/fraud-detection-prevention-mark
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="Dev-Diagram.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="Compliance.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next" href="Architecture.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="MIT-System-Dynamics.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

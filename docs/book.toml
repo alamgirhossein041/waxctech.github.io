@@ -3,8 +3,9 @@ authors = ["man-chi"]
 language = "en"
 multilingual = false
 src = "src"
-title = "The Book - WAXC Technology Open Source"
+title = "The Book - WAXC Technology Foundation"
 description = "The book covers software development and research"
+
 
 [rust]
 edition = "2021"
@@ -29,3 +30,6 @@ output-to-file = false # defaults to false, change to true to create SVG files i
 plantuml-cmd="/usr/local/bin/plantuml"
 #plantuml-cmd="/usr/local/bin/plantuml -tsvg -nometadata"
 #command = "mdbook-plantuml -l"
+
+#[preprocessor.bib]
+#bibliography = "biblio.bib2"

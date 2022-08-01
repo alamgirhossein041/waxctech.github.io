@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Architecture Design - The Book - WAXC Technology Open Source</title>
+        <title>Architecture - Modularity - The Book - WAXC Technology Foundation</title>
 
 
         <!-- Custom HTML head -->
@@ -83,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Development Environment</li><li class="chapter-item expanded "><a href="Dev-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="Dev-IDE.html"><strong aria-hidden="true">2.</strong> IntelliJ IDE</a></li><li class="chapter-item expanded "><a href="Dev-Git.html"><strong aria-hidden="true">3.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="Dev-Rust.html"><strong aria-hidden="true">4.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="Dev-Diagram.html"><strong aria-hidden="true">5.</strong> Diagram as Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><a href="Data-Fraud-Detection.html"><strong aria-hidden="true">6.</strong> Fraud Detection</a></li><li class="chapter-item expanded "><a href="Architecture.html" class="active"><strong aria-hidden="true">7.</strong> Architecture Design</a></li><li class="chapter-item expanded "><a href="Compliance.html"><strong aria-hidden="true">8.</strong> Compliance</a></li><li class="chapter-item expanded "><a href="MIT-System-Dynamics.html"><strong aria-hidden="true">9.</strong> Social Dynamics</a></li><li class="chapter-item expanded affix "><li class="part-title">Technology</li><li class="chapter-item expanded "><a href="Blockchain.html"><strong aria-hidden="true">10.</strong> Blockchain</a></li><li class="chapter-item expanded "><a href="Computer-Science.html"><strong aria-hidden="true">11.</strong> Computer Science</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><div>Contributors</div></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Development Environment</li><li class="chapter-item expanded "><a href="Dev-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="Dev-IDE.html"><strong aria-hidden="true">2.</strong> IntelliJ IDE</a></li><li class="chapter-item expanded "><a href="Dev-Git.html"><strong aria-hidden="true">3.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="Dev-Rust.html"><strong aria-hidden="true">4.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="Dev-Diagram.html"><strong aria-hidden="true">5.</strong> Diagram as Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><a href="Econ-Opensource.html"><strong aria-hidden="true">6.</strong> Risk - Open Source Model</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.</strong> Risk - Probability</div></li><li class="chapter-item expanded "><a href="Arc-EventDriven.html" class="active"><strong aria-hidden="true">8.</strong> Architecture - Domain Driven Design</a></li><li class="chapter-item expanded "><a href="Arc-EventDriven.html" class="active"><strong aria-hidden="true">9.</strong> Architecture - Modularity</a></li><li class="chapter-item expanded "><a href="Compliance.html"><strong aria-hidden="true">10.</strong> Measurement - Compliance </a></li><li class="chapter-item expanded "><a href="Data-Fraud-Detection.html"><strong aria-hidden="true">11.</strong> Measurement - Fraud Detection</a></li><li class="chapter-item expanded "><a href="MIT-System-Dynamics.html"><strong aria-hidden="true">12.</strong> Social Dynamics</a></li><li class="chapter-item expanded "><a href="Econ-Opensource.html"><strong aria-hidden="true">13.</strong> Open source Model</a></li><li class="chapter-item expanded affix "><li class="part-title">Technology</li><li class="chapter-item expanded "><a href="Blockchain.html"><strong aria-hidden="true">14.</strong> Blockchain</a></li><li class="chapter-item expanded "><a href="Computer-Science.html"><strong aria-hidden="true">15.</strong> Computer Science</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><div>Contributors</div></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -112,7 +112,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">The Book - WAXC Technology Open Source</h1>
+                    <h1 class="menu-title">The Book - WAXC Technology Foundation</h1>
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
@@ -144,23 +144,21 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="micokernel-pattern"><a class="header" href="#micokernel-pattern">micokernel pattern</a></h1>
-<p><a href="https://www.youtube.com/watch?v=h3icQDMRLd8">Microkernel Architectural Pattern</a>
-<a href="https://developer.ibm.com/series/osgi-demystified-article-series/">IBM's OSGI articles</a>
-<a href="https://www.youtube.com/watch?v=zH4_A1rtES8">Kirk Knoernschild on modularity patterns</a>
-<a href="https://www.infoq.com/articles/monolith-defense-part-1/">modularity</a>
-<a href="https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven">Event driven architecture</a>
-<a href="https://dzone.com/articles/apache-karaf-microservices">Apache Karaf Microservices</a>
-<a href="https://lucian-davitoiu.medium.com/a-camel-project-example-with-java-beans-and-osgi-blueprint-in-karaf-5dc172e09829">osgi + camel</a>
-<a href="https://www.exoscale.com/syslog/building-microservices-in-osgi-with-the-apache-karaf-framework/">Building Microservices in OSGi with the Apache Karaf Framework</a>
-<a href="http://www.kamilgrzybek.com/design/modular-monolith-primer/">Modular Monolith: A Primer</a>
-<a href="https://www.youtube.com/watch?v=6_UU90fSYTk">osgi best practices</a>
-<a href="https://www.youtube.com/watch?v=y_dg5MPbaX8">Microservices &amp; OSGi: Better together?</a>
-<a href="https://www.c-sharpcorner.com/article/an-overview-of-microkernel-architecture-pattern/">An Overview Of MicroKernel Architecture Pattern</a><br />
-<a href="https://www.viralpatel.net/microkernel-architecture-pattern-apply-software-systems/">Microkernel Architecture Pattern &amp; Applying it to Software Systems</a>
-<a href="https://blog.softwaremill.com/actor-model-and-event-sourcing-aa00993d2f1e">Actor Model and Event Sourcing</a></p>
-<p><a href="https://pages.awscloud.com/AWS-Learning-Path-How-to-Use-Amazon-EventBridge-to-Build-Decoupled-Event-Driven-Architectures_2020_LP_0001-SRV.html?&amp;trk=ps_a134p000003yBd8AAE&amp;trkCampaign=FY20_2Q_eventbridge_learning_path&amp;sc_channel=ps&amp;sc_campaign=FY20_2Q_EDAPage_eventbridge_learning_path&amp;sc_outcome=PaaS_Digital_Marketing&amp;sc_publisher=Google">Event Driven Architecture</a>
-<a href="https://aws.amazon.com/tw/event-driven-architecture/">AWS EDA</a></p>
+                        <h1 id="low-code"><a class="header" href="#low-code">low code</a></h1>
+<p>https://github.com/ToolJet/ToolJet</p>
+<p>https://en.wikipedia.org/wiki/List_of_important_publications_in_computer_science#Programming_languages</p>
+<ul>
+<li>Software Mistakes and Tradeoffs by Tomasz Lelek, Jon Skeet
+https://www.archunit.org/
+Domain-driven error handling. Don't handle errors - prevent them.(https://mkaszubowski.com/2020/11/18/domain-driven-error-handling.html)
+https://github.com/donnemartin/system-design-primer</li>
+</ul>
+<h1 id="event-driven-architecture"><a class="header" href="#event-driven-architecture">Event driven architecture</a></h1>
+<p><a href="https://pages.awscloud.com/AWS-Learning-Path-How-to-Use-Amazon-EventBridge-to-Build-Decoupled-Event-Driven-Architectures_2020_LP_0001-SRV.html?&amp;trk=ps_a134p000003yBd8AAE&amp;trkCampaign=FY20_2Q_eventbridge_learning_path&amp;sc_channel=ps&amp;sc_campaign=FY20_2Q_EDAPage_eventbridge_learning_path&amp;sc_outcome=PaaS_Digital_Marketing&amp;sc_publisher=Google">AWS Event Driven Architecture</a>
+<a href="https://aws.amazon.com/tw/event-driven-architecture/">AWS EDA</a>
+<a href="https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven">Azure Event driven architecture</a>
+[Actor Model and Event Sourcing](https://blog.softwaremill.com/actor-model-and-event-sourcing-aa00993d2f1
+<a href="https://ocw.mit.edu/courses/6-005-elements-of-software-construction-fall-2008/pages/lecture-notes/">state machine</a></p>
 <h1 id="axon-eventstore-training"><a class="header" href="#axon-eventstore-training">Axon EventStore Training</a></h1>
 <p><a href="https://academy.axoniq.io/path-player?courseid=ddd-cqrs-eventsourcing-concepts&amp;unit=60928138325bf8218e4f4325Unit">Introduction to DDD, CQRS and Event Sourcing - 5h</a>
 <a href="https://academy.axoniq.io/course/ddd-cqrs-eventsourcing-axon">Implementing DDD, CQRS and Event Sourcing with Axon - 5h</a></p>
@@ -175,6 +173,11 @@
 <a href="https://learning.oreilly.com/videos/domain-driven-design-distilled/9780134593449/">DDD distill by Vaughn Vernon</a> 
 <a href="https://www.youtube.com/watch?v=h_HjtYAH0AI&amp;t=1342s">7 Years of DDD - lecture by Vladik Khononov </a>
 <a href="https://www.algotrader.com/intelligence/modern-trading-applications-architectures-an-overview-of-the-lmax-disruptor-pattern-and-project-reactor/">LMAX vs actor pattern</a></p>
+<ul>
+<li>Adaptive Systems with Domain-Driven Design, Wardley Mapping, and Team Topologies: Architecture for Flow</li>
+<li>Domain Storytelling: A Collaborative, Visual, and Agile Way to Build Domain-Driven Software (Addison-Wesley Signature Series (Vernon))
+by Stefan Hofer, Henning Schwentner (Kindle Edition)</li>
+</ul>
 <h1 id="high-frequency-trading"><a class="header" href="#high-frequency-trading">High Frequency Trading</a></h1>
 <p><a href="http://turingfinance.com/wp-content/uploads/2013/11/U10026942_SoftwareArchitectureDocument_ATs.pdf">Algorithmic Trading System</a>
 <a href="https://www.algotrader.com/">Algorithmic Trading System</a>
@@ -191,7 +194,10 @@
 <p><a href="https://apim.docs.wso2.com/en/latest/get-started/apim-architecture/">wso2</a>
 <a href="https://medium.com/wso2-learning/how-to-build-a-real-time-event-driven-information-system-with-wso2-api-manager-and-kafka-33f49fca46dd">How to build a real-time, event-driven information system with WSO2 API Manager and Kafka</a>
 <a href="https://karaf.apache.org/">apache karaf modulith runtime</a>
-<a href="https://wso2.com/choreo/">WSO2 Choreo API marketplace</a></p>
+<a href="https://wso2.com/choreo/">WSO2 Choreo cloud API marketplace</a></p>
+<h1 id="polyglot-inception-with-graalvm"><a class="header" href="#polyglot-inception-with-graalvm">Polyglot inception with GraalVM</a></h1>
+<p>https://deepu.tech/polyglot-showdown-with-graalvm/
+https://medium.com/graalvm/3-ways-to-polyglot-with-graalvm-fb28c1542b45</p>
 <h1 id="architecture-decision-record"><a class="header" href="#architecture-decision-record">Architecture Decision Record</a></h1>
 <p>https://adr.github.io/madr/
 https://www.structurizr.com/help/decision-log
@@ -266,15 +272,6 @@ nuxt serverless template: https://github.com/jake-101/bael-template
 https://css-tricks.com/creating-dynamic-routes-in-a-nuxt-application/
 https://templates.netlify.com/template/netlifycms-gridsome/
 [A Jamstack framework for Vue.js] (https://gridsome.org/)</p>
-<h1 id="open-source-ecosystem"><a class="header" href="#open-source-ecosystem">Open Source Ecosystem</a></h1>
-<p><a href="https://runacap.com/ross-index/">ROSS index</a>
-<a href="https://medium.com/runacapital/open-source-growth-benchmarks-and-the-20-fastest-growing-oss-startups-d3556a669fe6"></a>
-<a href="https://medium.com/runacapital/open-source-growth-benchmarks-extention-the-ross-index-and-the-fastest-growing-startups-in-q3-2020-7aee7fa7eed7"></a>
-<a href="https://github.com/RunaCapital/awesome-oss-alternatives">awesome OSS list</a>
-(https://medium.com/runacapital/open-source-analysis-and-os-databases-1eb1fe840719)
-<a href="https://gitplanet.com/">gitplanet</a>
-<a href="https://kandi.openweaver.com/home">kandi</a>
-<a href="https://www.apache.org/foundation/how-it-works.html">the apache ways</a></p>
 <h1 id="awewsome-list"><a class="header" href="#awewsome-list">awewsome list</a></h1>
 <p><a href="https://github.com/awesomedata/awesome-public-datasets">public datasets</a>
 <a href="https://github.com/Hack-with-Github/Awesome-Hacking">hacking</a>
@@ -327,11 +324,11 @@ https://templates.netlify.com/template/netlifycms-gridsome/
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="Data-Fraud-Detection.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="Econ-Opensource.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next" href="Compliance.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="Arc-EventDriven.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -341,17 +338,33 @@ https://templates.netlify.com/template/netlifycms-gridsome/
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="Data-Fraud-Detection.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="Econ-Opensource.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next" href="Compliance.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="Arc-EventDriven.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
