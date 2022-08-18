@@ -1,3 +1,24 @@
+# Important papers
+[Can programming be liberated from the von Neumann style?](https://dl.acm.org/doi/10.1145/1283920.1283933)
+[The algebra (and calculus!) of algebraic data types](https://codewords.recurse.com/issues/three/algebra-and-calculus-of-algebraic-data-types)
+[Differential Calculus with Datatypes the hole story](http://strictlypositive.org/calculus/)
+[E. W. Dijkstra. Go To Statement Considered Harmful. Cacm, Mar. 1968] https://en.wikipedia.org/wiki/Considered_harmful#:~:text=Considered%20harmful%20was%20popularized%20among,the%20day%20and%20advocated%20structured
+[N. Wirth. Program Development by Stepwise Refinement. Cacm, April 1971]
+[D. L. Parnas. Information Distribution Aspects of Design Methodology. IFIP Congress, 1971]
+[B. Liskov. A Design Methodology for Reliable Software Systems. FJCC, Dec. 1972]
+[O-J. Dahl and C.A.R. Hoare. Hierarchical Program Structures. Structured Programming, Academic Press, 1972]
+[J. H. Morris. Protection in Programming Languages. Cacm. Jan. 1973]
+[B. Liskov and S. Zilles. Programming with Abstract Data Types. ACM Sigplan Conference on Very High Level Languages. April 1974]
+[Abstraction Mechanisms in CLU, B. Liskov et al, CACM August 1977]
+[B. Liskov. Data abstraction and Hierarchy. Sigplan Notices, May 1988 
+[ B. Liskov and J. Wing. A Behavioral Notion of Subtyping. ACM Toplas, Nov. 1994]
+
+- [Parnas_71-Information_Distribution_Aspects_of_Design_Methodology.pdf](https://github.com/ArchitectingSoftware/CS575-SoftwareDesign/blob/master/Papers/Parnas_71-Information_Distribution_Aspects_of_Design_Methodology.pdf)
+- [CS-575 Software Design - Papers](https://github.com/ArchitectingSoftware/CS575-SoftwareDesign/tree/master/Papers)
+- [On the evaluation of the Bunch search-based software modularization algorithm, 2008](https://www.cs.drexel.edu/~bmitchell/assets/pubs/JSC07.pdf)
+- [On the Automatic Modularization of Software Systems Using the Bunch Tool, 2006](https://www.cs.drexel.edu/~bmitchell/assets/pubs/TSE-0035-0304.pdf)
+
+
 # Modular Articles
 [Modular Java Apps - A Microkernel Approach, 2012](https://dzone.com/articles/modular-java-apps-microkernel)
 [How Can We Measure Our Software’s Modularity and Dependencies?](https://betterprogramming.pub/inside-software-modularity-and-related-metrics-2e5af2b447dc)
@@ -15,23 +36,22 @@
 
 
 # Modularization Papers & Books
-- [Parnas_71-Information_Distribution_Aspects_of_Design_Methodology.pdf](https://github.com/ArchitectingSoftware/CS575-SoftwareDesign/blob/master/Papers/Parnas_71-Information_Distribution_Aspects_of_Design_Methodology.pdf)
-- [CS-575 Software Design - Papers](https://github.com/ArchitectingSoftware/CS575-SoftwareDesign/tree/master/Papers)
-- [On the evaluation of the Bunch search-based software modularization algorithm, 2008](https://www.cs.drexel.edu/~bmitchell/assets/pubs/JSC07.pdf)
-- [On the Automatic Modularization of Software Systems Using the Bunch Tool, 2006](https://www.cs.drexel.edu/~bmitchell/assets/pubs/TSE-0035-0304.pdf)
 - [stanford CS 190 - modular design](https://web.stanford.edu/~ouster/cgi-bin/cs190-winter18/lecture.php?topic=modularDesign) //Chapters 4-7, 14 of book
-- **A Philosophy of Software Design, 2nd Edition by John K. Ousterhout (kindle only)
-- **[18 Patterns of Modular Architecture by Kirk Knoernschild](https://dzone.com/asset/download/38831)
+- **[A Philosophy of Software Design, 2nd Edition by John K. Ousterhout, 2021](https://www.amazon.com/Philosophy-Software-Design-2nd-ebook/dp/B09B8LFKQL/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
+- **[18 Patterns of Modular Architecture by Kirk Knoernschild, 2013](https://dzone.com/asset/download/38831)
 - **Software Specification and Design: An Engineering Approach
 - **Software Design X-Rays  by Adam Tornhill
 - The Modular Way (kindle only)
-- Software Development Measurement Programs (kindle $17)
-- Software Architecture Metrics
 - Design It!: From Programmer to Software Architect
 - Strategic Monoliths and Microservices
 - [uncle bob-The Principles of OOD](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
 - [book: Software Mistakes and Tradeoffs by Tomasz Lelek, Jon Skeet](https://www.amazon.com/Software-Mistakes-Tradeoffs-programming-decisions/dp/1617299200/ref=sr_1_1?crid=33WMJHPW2FWFT&keywords=Software+Mistakes+and+Tradeoffs+by+Tomasz+Lelek&qid=1659366563&sprefix=software+mistakes+and+tradeoffs+by+tomasz+lelek%2Caps%2C646&sr=8-1)
 
+# Springer Research Paper
+[Source Code Modularization: Theory and Techniques,2017](https://www.amazon.com/Source-Code-Modularization-Theory-Techniques/dp/3319633449/ref=sr_1_1?keywords=software+modularization&qid=1659424078&sr=8-1&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc)
+[Emergent Interfaces for Feature Modularization (SpringerBriefs in Computer Science), 2014](https://www.amazon.com/Emergent-Interfaces-Modularization-SpringerBriefs-Computer/dp/3319114921/ref=sr_1_4?keywords=software+modularization&qid=1659424078&sr=8-4)
+***[Interdisciplinary Optimization of Modularization, 2022](https://www.amazon.com/Interdisciplinary-Optimization-Modularization-Marvin-Caspar/dp/3346553035/ref=sr_1_5?keywords=software+modularization&qid=1659424078&sr=8-5&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc)
+[Growing Modular: Mass Customization of Complex Products, Services and Software 2005th Edition](https://www.amazon.com/Growing-Modular-Customization-Products-Services/dp/3540239596/ref=sr_1_14?keywords=software+modularization&qid=1659424154&sr=8-14&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc)
 
 # Modularity Software Design
 [Software, Faster • Dan North • GOTO 2016](https://www.youtube.com/watch?v=USc-yLHXNUg&t=948s)

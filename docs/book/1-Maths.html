@@ -1,0 +1,456 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Maths - Probability - The Book - WAXC Technology Foundation</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="The book covers software development and research">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+        <!-- MathJax -->
+        <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Development Environment</li><li class="chapter-item expanded "><a href="Dev-Unix.html"><strong aria-hidden="true">1.</strong> Modern Unix Command</a></li><li class="chapter-item expanded "><a href="Dev-IDE.html"><strong aria-hidden="true">2.</strong> IntelliJ IDE</a></li><li class="chapter-item expanded "><a href="Dev-Git.html"><strong aria-hidden="true">3.</strong> Git Convention</a></li><li class="chapter-item expanded "><a href="Dev-Rust.html"><strong aria-hidden="true">4.</strong> Rust Programming</a></li><li class="chapter-item expanded "><a href="Dev-Diagram.html"><strong aria-hidden="true">5.</strong> Diagram as Code</a></li><li class="chapter-item expanded affix "><li class="part-title">Best Practices</li><li class="chapter-item expanded "><a href="1-Maths.html" class="active"><strong aria-hidden="true">6.</strong> Maths - Probability</a></li><li class="chapter-item expanded "><a href="1-Fraud-Detection.html"><strong aria-hidden="true">7.</strong> Maths - Fraud Detection</a></li><li class="chapter-item expanded "><a href="2-Distributed.html"><strong aria-hidden="true">8.</strong> Distributed Services</a></li><li class="chapter-item expanded "><a href="2-Modularity.html"><strong aria-hidden="true">9.</strong> Modularity Design</a></li><li class="chapter-item expanded "><a href="3-CEP-LakeHouse.html"><strong aria-hidden="true">10.</strong> Complex Event Processor</a></li><li class="chapter-item expanded "><a href="3-Compliance.html"><strong aria-hidden="true">11.</strong> Compliance & Metrics</a></li><li class="chapter-item expanded affix "><li class="part-title">LifeCycle / Process</li><li class="chapter-item expanded "><a href="Dynamic-Process.html"><strong aria-hidden="true">12.</strong> Operation - Social Dynamics</a></li><li class="chapter-item expanded "><a href="Team-Goals.html"><strong aria-hidden="true">13.</strong> Operation - Goal Setting</a></li><li class="chapter-item expanded affix "><li class="part-title">Technology</li><li class="chapter-item expanded "><a href="Computer-Science.html"><strong aria-hidden="true">14.</strong> Computer Science</a></li><li class="chapter-item expanded "><a href="Blockchain.html"><strong aria-hidden="true">15.</strong> Blockchain</a></li><li class="chapter-item expanded "><a href="Redis.html"><strong aria-hidden="true">16.</strong> Redis</a></li><li class="chapter-item expanded "><a href="Open-Source.html"><strong aria-hidden="true">17.</strong> Open Source Model</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><div>Contributors</div></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The Book - WAXC Technology Foundation</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="mathematics-courses"><a class="header" href="#mathematics-courses">Mathematics Courses</a></h1>
+<h2 id="phase-i"><a class="header" href="#phase-i">Phase I</a></h2>
+<ol>
+<li><a href="https://www.khanacademy.org/math/precalculus">khan pre-calculus - 1m</a></li>
+<li><a href="https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/">MIT 18.01 single variable calculus 2010 - 2m</a></li>
+<li><a href="https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/course/">MIT 6.042j mathematics for computer science 2019 - 2m</a></li>
+</ol>
+<h2 id="phase-ii---optimization"><a class="header" href="#phase-ii---optimization">Phase II - optimization</a></h2>
+<p><a href="https://learning.edx.org/course/course-v1:MITx+18.02.1x+1T2022/home">MIT 18.02 Multivariable Calculus 1: Vectors and Derivatives</a>
+<a href="https://learning.edx.org/course/course-v1:MITx+18.02.2x+2T2022/home">MIT 18.02 Multivariable Calculus 2: Integrals</a>
+<a href="https://learning.edx.org/course/course-v1:MITx+18.031x+2T2022/home">MIT 18.031 Introduction to Differential Equations, 5 courses</a>
+//intro, 2x2, linear aglebra, fourier series, laplace transform</p>
+<h2 id="phase-iii---algorithm"><a class="header" href="#phase-iii---algorithm">Phase III - algorithm</a></h2>
+<hr />
+<p><a href="https://www.edx.org/course/algorithms-design-and-analysis?index=product&amp;queryID=60576078b45dc20eecfff03de3dc5b33&amp;position=1">Algorithms: Design and Analysis, Part 1</a>
+<a href="https://www.coursera.org/learn/algorithms-part1/home/week/1">princeton</a></p>
+<h1 id="prob-and-statistics"><a class="header" href="#prob-and-statistics">Prob and Statistics</a></h1>
+<ol start="9">
+<li><a href="https://www.edx.org/course/probability-the-science-of-uncertainty-and-data">MIT 6.041 probability 2010 - 1.5m</a></li>
+<li><a href="https://www.edx.org/course/fundamentals-of-statisticse">MIT 18.6501 statistics 2018 - 1m</a>
+<a href="https://www.edx.org/course/machine-learning-with-python-from-linear-models-to">deep learning </a>
+<a href="https://www.edx.org/course/statistics-computation-and-applications">data analysis</a></li>
+</ol>
+<h2 id="phase-iv"><a class="header" href="#phase-iv">Phase IV</a></h2>
+<hr />
+<ol start="11">
+<li><a href="https://ocw.mit.edu/courses/18-085-computational-science-and-engineering-i-fall-2008/">MIT 18.085 computational science and engineering I 2008</a></li>
+<li><a href="https://ocw.mit.edu/courses/18-086-mathematical-methods-for-engineers-ii-spring-2006/video_galleries/video-lectures/">MIT 18.086 mathematical methods for engineers II 2006</a> // optimization</li>
+<li><a href="https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/">MIT 18.404j THEORY OF COMPUTATION 2020</a></li>
+<li><a href="https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/video_galleries/lecture-videos/">ADVANCED DATA STRUCTURES</a></li>
+</ol>
+<p><a href="https://ocw.mit.edu/courses/18-100a-introduction-to-analysis-fall-2012/">MIT 18.100 intro to analysis</a>
+convex optimization, stanford</p>
+<p><a href="https://dl.acm.org/doi/pdf/10.1145/1283920.1283933">Can programming be liberated from the von Neumann style?: a functional style and its algebra of programs</a></p>
+<h1 id="math-simulation"><a class="header" href="#math-simulation">Math simulation</a></h1>
+<p><a href="https://phet.colorado.edu/sims/html/trig-tour/latest/trig-tour_en.html">trigo:</a>
+<a href="https://phet.colorado.edu/sims/html/graphing-lines/latest/graphing-lines_en.html">linear equation:</a>
+<a href="https://phet.colorado.edu/sims/html/graphing-quadratics/latest/graphing-quadratics_en.html">quadratic equation:</a>
+<a href="https://phet.colorado.edu/sims/html/curve-fitting/latest/curve-fitting_en.html">cube/curve fitting:</a>
+<a href="https://phet.colorado.edu/sims/html/fourier-making-waves/latest/fourier-making-waves_en.html">fourier:</a>
+<a href="https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_en.html">vector equation:</a></p>
+<p><a href="https://www.scilab.org/software/scilab">scilab</a>
+// domain: signal processing, control, statistics, optimization
+GNU Octave: https://octave.org/
+// compatible with  Matlab scripts</p>
+<p><a href="https://jasp-stats.org/">JASP</a>
+// Frequentist analyses, Bayesian analyses
+https://octave.org/</p>
+<p><a href="https://math.mit.edu/%7Egs/everyone/compare%20LAFE-ILA5I.pdf">linear algbra for everyone:</a></p>
+<p>#largest open-source algorithm library (https://the-algorithms.com/)</p>
+<h2 id="graduated-cs-course"><a class="header" href="#graduated-cs-course">graduated CS course:</a></h2>
+<p>information/compution/complexity theory
+<a href="https://ocw.mit.edu/search/?s=-runs.best_start_date&amp;t=Computational%20Modeling%20and%20Simulation">computation, modelling, simulation:</a></p>
+<p><a href="https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/syllabus/">INTRODUCTION TO NUMERICAL METHODS</a>
+//advance linear algebra, caching for nonlinear optimization
+// prequestise: 18.01,02,03</p>
+<p><a href="https://ocw.mit.edu/courses/6-231-dynamic-programming-and-stochastic-control-fall-2015/pages/syllabus/">DYNAMIC PROGRAMMING AND STOCHASTIC CONTROL</a>
+// applied probablity, advance analysis</p>
+<p><a href="https://ocw.mit.edu/courses/6-241j-dynamic-systems-and-control-spring-2011/pages/syllabus/">DYNAMIC SYSTEMS AND CONTROL</a>
+//system optimziation</p>
+<p>INTRODUCTION TO MATHEMATICAL PROGRAMMING
+// linear optimization &gt; CONVEX ANALYSIS AND OPTIMIZATION</p>
+<p><a href="https://ocw.mit.edu/courses/15-060-data-models-and-decisions-fall-2014/pages/syllabus/">DATA, MODELS, AND DECISIONS</a>
+// managment science </p>
+<p>AI:
+<a href="https://ocw.mit.edu/courses/16-410-principles-of-autonomy-and-decision-making-fall-2010/pages/syllabus/">PRINCIPLES OF AUTONOMY AND DECISION MAKING</a>
+<a href="https://ocw.mit.edu/courses/12-s990-quantifying-uncertainty-fall-2012/pages/syllabus/">QUANTIFYING UNCERTAINTY</a></p>
+<p>Algorithms and Data Structures
+Level:	Graduate</p>
+<p><a href="https://ocw.mit.edu/courses/15-082j-network-optimization-fall-2010/pages/syllabus/">NETWORK OPTIMIZATION</a>
+// subclass of linear programming</p>
+<p><a href="https://ocw.mit.edu/courses/1-204-computer-algorithms-in-systems-engineering-spring-2010/pages/lecture-notes/">COMPUTER ALGORITHMS IN SYSTEMS ENGINEERING</a>
+// data structure, divide and conqurer, dynamic programming, branch and bound, linear and non-linear optimization, Approximate Queues and Network Designs</p>
+<p><a href="https://ocw.mit.edu/courses/15-358-the-software-business-fall-2005/">THE SOFTWARE BUSINESS</a></p>
+<p>Computer Science
+Algorithms and Data Structures
+Systems Engineering
+Computational Modeling and Simulation
+Systems Optimization</p>
+<h2 id="greek-numbers"><a class="header" href="#greek-numbers">Greek Numbers</a></h2>
+<h1 id="alpha"><a class="header" href="#alpha">Alpha</a></h1>
+<p>the first angle in a triangle, opposite the side A
+the statistical significance of a result
+the false positive rate in statistics (&quot;Type I&quot; error)
+the α-conversion in lambda calculus
+the independence number of a graph</p>
+<h1 id="Ββ-beta"><a class="header" href="#Ββ-beta">Ββ (beta)</a></h1>
+<p>Β represents the beta function
+the second angle in a triangle, opposite the side B
+one root of a quadratic equation, where α represents the other
+the standardized regression coefficient for predictor or independent variables in linear regression (unstandardized regression coefficients are represented with the lower-case Latin b, but are often called &quot;betas&quot; as well)
+the false negative rate in statistics (&quot;Type II&quot; error)
+β-reduction in lambda calculus</p>
+<p>#Γγ (gamma)</p>
+<p>the gamma function, a generalization of the factorial
+the modular group, the group of fractional linear transformations
+the gamma distribution, a continuous probability distribution defined using the gamma function
+the neighbourhood of a vertex in a graph
+the stack alphabet in the formal definition of a pushdown automaton
+the third angle in a triangle, opposite the side C
+the Euler–Mascheroni constant in mathematics</p>
+<h1 id="Δδ-delta"><a class="header" href="#Δδ-delta">Δδ (delta)</a></h1>
+<p>Δ represents:
+a finite difference
+a difference operator
+a symmetric difference
+the Laplace operator
+the angle that subtends the arc of a circular curve in surveying
+the determinant of an inverse matrix
+the maximum degree of any vertex in a given graph
+the difference or change in a given variable, e.g. ∆v means a difference or change in velocity</p>
+<p>/ delta  represents:
+percent error
+a variation in the calculus of variations</p>
+<p>the minimum degree of any vertex in a given graph</p>
+<h1 id="Εε-epsilon"><a class="header" href="#Εε-epsilon">Εε (epsilon)</a></h1>
+<p>a small positive quantity; see limit
+a random error in regression analysis
+the absolute value of an error[3]
+in set theory, the limit ordinal of the sequence {\displaystyle \omega ,\omega ^{\omega },\omega ^{\omega ^{\omega }},\dots } \omega ,\omega ^{\omega },\omega ^{\omega ^{\omega }},\dots
+in computer science, the empty string
+expected value in probability theory and statistics</p>
+<h1 id="Ζζ-zeta"><a class="header" href="#Ζζ-zeta">Ζζ (zeta)</a></h1>
+<p>the Riemann zeta function and other zeta functions in mathematics</p>
+<h1 id="Ηη-eta"><a class="header" href="#Ηη-eta">Ηη (eta)</a></h1>
+<p>Information theoretic (Shannon) entropy
+\eta  represents:
+the partial regression coefficient in statistics
+elasticities in economics
+noise in communication system models
+η-conversion in lathe first Chebyshev function in number theory
+mbda calculus</p>
+<h1 id="Θθ-theta"><a class="header" href="#Θθ-theta">Θθ (theta)</a></h1>
+<p>an asymptotically tight bound related to big O notation.</p>
+<p>in set theory, a certain ordinal number
+in econometrics and statistics, a space of parameters from which estimates are drawn</p>
+<p>\theta  (lowercase) represents:
+a plane angle in geometry
+in mathematical statistics, an unknown parameter</p>
+<h1 id="Ιι-iota"><a class="header" href="#Ιι-iota">Ιι (iota)</a></h1>
+<p>an inclusion map in set theory</p>
+<p>#Κκ (kappa)</p>
+<p>the kappa curve, a two-dimensional algebraic curve
+the condition number of a matrix in numerical analysis
+the connectivity of a graph in graph theory</p>
+<h1 id="Λλ-lambda"><a class="header" href="#Λλ-lambda">Λλ (lambda)</a></h1>
+<p>the von Mangoldt function in number theory
+the set of logical axioms in the axiomatic method of logical deduction in first-order logic
+a diagonal matrix of eigenvalues in linear algebra
+a lattice
+\lambda  represents:
+function expressions in the lambda calculus
+a general eigenvalue in linear algebra
+the expected number of occurrences in a Poisson distribution in probability
+the arrival rate in queueing theory
+the average lifetime or rate parameter in an exponential distribution
+the mean or average value (probability and statistics)
+the Liouville function in number theory
+the Carmichael function in number theory
+a formal system in mathematical logic</p>
+<h1 id="Μμ-mu"><a class="header" href="#Μμ-mu">Μμ (mu)</a></h1>
+<p>the population mean or expected value in probability and statistics
+the service rate in queueing theory</p>
+<h1 id="Νν-nu"><a class="header" href="#Νν-nu">Νν (nu)</a></h1>
+<p>degrees of freedom in statistics
+the matching number of a graph</p>
+<h1 id="Ξξ-xi"><a class="header" href="#Ξξ-xi">Ξξ (xi)</a></h1>
+<p>a random variable
+universal setca</p>
+<h1 id="Οο-omicron"><a class="header" href="#Οο-omicron">Οο (omicron)</a></h1>
+<p>big O notation (may be represented by an uppercase Latin O)</p>
+<h1 id="Ππ-pi"><a class="header" href="#Ππ-pi">Ππ (pi)</a></h1>
+<p>\pi  represents:
+Archimedes' constant, the ratio of a circle's circumference to its diameter
+the prime-counting function
+profit in microeconomics and game theory
+inflation in macroeconomics, expressed as a constant with respect to time
+the state distribution of a Markov chain
+in reinforcement learning, a policy function defining how a software agent behaves for each possible state of its environmentin
+in statistics, the population proportion</p>
+<p>#Ρρ (rho)
+one of the Gegenbauer functions in analytic number theory.
+the correlation coefficient in statistics
+the utilization in queueing theory
+the rank of a matrix
+#Σσς (sigma)
+Σ represents:
+the summation operator
+the covariance matrix
+\sigma  represents:
+the divisor function in number theory
+the real part of the complex variable s = σ + i t in analytic number theory
+the sign of a permutation in the theory of finite groups
+the population standard deviation, a measure of spread in probability and statistics</p>
+<h1 id="Ττ-tau"><a class="header" href="#Ττ-tau">Ττ (tau)</a></h1>
+<p>\tau  represents:
+Ramanujan's tau function in number theory
+a type variable in type theories, such as the simply typed lambda calculus
+in topology, a given topology
+the golden ratio 1.618... (although φ (phi) is more common)</p>
+<h1 id="Φφ-phi"><a class="header" href="#Φφ-phi">Φφ (phi)</a></h1>
+<p>the reciprocal of the golden ratio (represented by φ, below), also represented as 1/φ
+\phi  represents:
+the golden ratio 1.618... in mathematics, art, and architecture
+the probability density function of the normal distribution in statistics</p>
+<h1 id="Χχ-chi"><a class="header" href="#Χχ-chi">Χχ (chi)</a></h1>
+<p>\chi  represents:
+the chi distribution in statistics ( {\displaystyle \chi ^{2}} \chi ^{2} is the more frequently encountered chi-squared distribution)
+the chromatic number of a graph in graph theory
+the Euler characteristic in algebraic topology</p>
+<h1 id="Ψψ-psi"><a class="header" href="#Ψψ-psi">Ψψ (psi)</a></h1>
+<p>a quaternary combinator in combinatory logic
+the reciprocal Fibonacci constant</p>
+<h1 id="Ωω-omega"><a class="header" href="#Ωω-omega">Ωω (omega)</a></h1>
+<p>in probability theory and statistical mechanics, the set of possible distinct system states
+\omega  represents:
+in probability theory, a possible outcome of an experiment</p>
+<p>Iota (i), Iēsoûs (Ἰησοῦς), &quot;Jesus&quot;
+Chi (ch), Khrīstós (Χρῑστός), &quot;anointed&quot;
+Theta (th), Theoû (Θεοῦ), &quot;of God&quot;, the genitive singular of Θεóς, Theós, &quot;God&quot;
+Upsilon (y or u), (h)uiós[11] (Yἱός), &quot;Son&quot;
+Sigma (s), sōtḗr (Σωτήρ), &quot;Savior&quot;</p>
+<h1 id="black-box-theory"><a class="header" href="#black-box-theory">black box theory</a></h1>
+<p><a href="https://www.jstor.org/stable/186066#:%7E:text=A%20black%20box%20is%20a,is%20purely%20external%20or%20phenomenological.">A General Black Box Theory</a>
+<a href="https://en.wikipedia.org/wiki/Black_box">black box</a>
+<a href="https://sdincose.org/wp-content/uploads/2014/11/John-Green-The-Application-of-Black-Box-Theory-to-System.pdf">The Application of Black Box Theory to System Development, 2014</a></p>
+<h1 id="maths-notations"><a class="header" href="#maths-notations">Maths Notations</a></h1>
+<p><a href="https://en.wikipedia.org/wiki/Glossary_of_mathematical_symbols">symbols</a>
+<a href="https://en.wikipedia.org/wiki/Operation_(mathematics)">operations</a>
+<a href="https://en.wikipedia.org/wiki/Relation_(mathematics)">relations</a>
+<a href="https://www.analyticsvidhya.com/blog/2021/06/how-to-learn-mathematics-for-machine-learning-what-concepts-do-you-need-to-master-in-data-science/">Mathematics For Machine Learning</a></p>
+<h1 id="real-time-bidding-for-adv"><a class="header" href="#real-time-bidding-for-adv">real time bidding for adv</a></h1>
+<ul>
+<li>Control theory - stochastic optimal control model (based on differient equation)</li>
+<li>Probability - Poisson process, a random variable, Bayesian probability</li>
+<li>Optimal control theory - Hamilton–Jacobi–Bellman equation</li>
+<li>Queueing theory - fluid limit</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="Dev-Diagram.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="1-Fraud-Detection.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="Dev-Diagram.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="1-Fraud-Detection.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+        <script src="ace.js" type="text/javascript" charset="utf-8"></script>
+        <script src="editor.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mode-rust.js" type="text/javascript" charset="utf-8"></script>
+        <script src="theme-dawn.js" type="text/javascript" charset="utf-8"></script>
+        <script src="theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

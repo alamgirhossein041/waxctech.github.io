@@ -158,4 +158,5 @@ Crossbeam just gives you various data structures and algorithms that are useful 
 [](https://www.beust.com/weblog/what-rust-could-learn-from-kotlin/)
 [The State of Developer Ecosystem 2021](https://www.jetbrains.com/lp/devecosystem-2021/)
 [cool app written in haskell](http://detexify.kirelabs.org/classify.html)
-(https://blog.allegro.tech/2020/04/immutability-in-java.html)
+[immutability in java](https://blog.allegro.tech/2020/04/immutability-in-java.html)
+[functional in kotlin](https://academy.47deg.com/courses/functional-programming-in-kotlin-and-arrow)

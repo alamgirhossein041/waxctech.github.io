@@ -81,7 +81,7 @@
 [Table Format Governance and Community Contributions: Apache Iceberg, Apache Hudi, and Delta Lake](https://www.dremio.com/subsurface/table-format-governance-and-community-contributions-apache-iceberg-apache-hudi-and-delta-lake/)
 [Comparison of Data Lake Table Formats (Iceberg, Hudi and Delta Lake)](https://www.dremio.com/subsurface/comparison-of-data-lake-table-formats-iceberg-hudi-and-delta-lake/)
 [spark vs flink](https://www.macrometa.com/event-stream-processing/spark-vs-flink)
-
+[kotlin and flink](https://docs.immerok.cloud/docs/cookbook/writing-application-in-kotlin/)
 
 # Apache Hadoop
 [hadoop ecosystem](https://www.edureka.co/blog/hadoop-ecosystem)
