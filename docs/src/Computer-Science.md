@@ -45,7 +45,7 @@
 - Parallel processing: performance limits, data- and thread-level parallelism
 - Building a Better Beta: tips for the design project
 
-[MIT 6.031: Software Construction (in TypeScript)](http://web.mit.edu/6.031/www/sp22/)
+[MIT 6.031: Software Construction (in typescript)](http://web.mit.edu/6.031/www/sp22/)
 ## Topics
 01: Static Checking
 02: Basic TypeScript

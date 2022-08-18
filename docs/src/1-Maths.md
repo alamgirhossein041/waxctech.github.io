@@ -1,20 +1,99 @@
 # Mathematics Courses
 1. [khan pre-calculus - 1m](https://www.khanacademy.org/math/precalculus)
-2. [MIT 6.042j mathematics for computer science 2019 - 2m](https://openlearninglibrary.mit.edu/courses/course-v1:ocw+6.042j+2t2019/course/)
-3. [MIT 18.01 single variable calculus 2010 - 2m](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/)
+2. [MIT 18.01 single variable calculus 2010 - 2m](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/)
+3. [MIT 6.042j mathematics for computer science 2019 - 2m](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/course/)
+
 -------------------------------
 4. [MIT 18.02 multivariable calculus 2010 - 2m](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/)
 5. [MIT 18.03 differential equations - 2m](https://www.edx.org/xseries/mitx-18.03x-differential-equations)
 6. [MIT 18.06 linear algebra 2011 - 2m](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/resources/the-geometry-of-linear-equations/)
 7. [MIT 6.041 probability 2010 - 1.5m](https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/)
 8. [MIT 18.6501 statistics 2018 - 1m](https://learning.edx.org/course/course-v1:mitx+18.6501x+3t2018/home)
+
 -------------------------------
 9. [MIT 6.006 introduction to algorithms 2020](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)
 10. [MIT 6.046j design and analysis of algorithms 2015](https://ocw.mit.edu/courses/6-046j-design-and-analysis-of-algorithms-spring-2015/)
 -------------------------------
 11. [MIT 18.085 computational science and engineering I 2008](https://ocw.mit.edu/courses/18-085-computational-science-and-engineering-i-fall-2008/)
-12. [MIT 18.086 mathematical methods for engineers II 2006](https://ocw.mit.edu/courses/18-086-mathematical-methods-for-engineers-ii-spring-2006/video_galleries/video-lectures/)
+12. [MIT 18.086 mathematical methods for engineers II 2006](https://ocw.mit.edu/courses/18-086-mathematical-methods-for-engineers-ii-spring-2006/video_galleries/video-lectures/) // optimization
 13. [MIT 18.404j THEORY OF COMPUTATION 2020](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/)
+
+[18.065 MATRIX METHODS IN DATA ANALYSIS, SIGNAL PROCESSING, AND MACHINE LEARNING](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/)
+
+[ADVANCED DATA STRUCTURES](https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/video_galleries/lecture-videos/)
+
+[MIT 18.100 intro to analysis](https://ocw.mit.edu/courses/18-100a-introduction-to-analysis-fall-2012/)
+convex optimization, stanford
+
+[Can programming be liberated from the von Neumann style?: a functional style and its algebra of programs](https://dl.acm.org/doi/pdf/10.1145/1283920.1283933)
+
+# Math simulation 
+[trigo:](https://phet.colorado.edu/sims/html/trig-tour/latest/trig-tour_en.html)
+[linear equation:](https://phet.colorado.edu/sims/html/graphing-lines/latest/graphing-lines_en.html)
+[quadratic equation:](https://phet.colorado.edu/sims/html/graphing-quadratics/latest/graphing-quadratics_en.html)
+[cube/curve fitting:](https://phet.colorado.edu/sims/html/curve-fitting/latest/curve-fitting_en.html)
+[fourier:](https://phet.colorado.edu/sims/html/fourier-making-waves/latest/fourier-making-waves_en.html)
+[vector equation:](https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_en.html)
+
+
+[scilab](https://www.scilab.org/software/scilab)
+// domain: signal processing, control, statistics, optimization
+GNU Octave: https://octave.org/
+// compatible with  Matlab scripts
+
+[JASP](https://jasp-stats.org/)
+// Frequentist analyses, Bayesian analyses
+https://octave.org/
+
+[linear algbra for everyone:](https://math.mit.edu/~gs/everyone/compare%20LAFE-ILA5I.pdf)
+
+#largest open-source algorithm library (https://the-algorithms.com/)
+
+## graduated CS course:
+information/compution/complexity theory
+computation, modelling, simulation: (https://ocw.mit.edu/search/?s=-runs.best_start_date&t=Computational%20Modeling%20and%20Simulation)
+
+[INTRODUCTION TO NUMERICAL METHODS](https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/syllabus/)
+//advance linear algebra, caching for nonlinear optimization
+// prequestise: 18.01,02,03
+
+[DYNAMIC PROGRAMMING AND STOCHASTIC CONTROL](https://ocw.mit.edu/courses/6-231-dynamic-programming-and-stochastic-control-fall-2015/pages/syllabus/)
+// applied probablity, advance analysis
+
+[DYNAMIC SYSTEMS AND CONTROL](https://ocw.mit.edu/courses/6-241j-dynamic-systems-and-control-spring-2011/pages/syllabus/)
+//system optimziation
+
+INTRODUCTION TO MATHEMATICAL PROGRAMMING
+// linear optimization > CONVEX ANALYSIS AND OPTIMIZATION
+
+[DATA, MODELS, AND DECISIONS](https://ocw.mit.edu/courses/15-060-data-models-and-decisions-fall-2014/pages/syllabus/)
+// managment science 
+
+
+AI:
+[PRINCIPLES OF AUTONOMY AND DECISION MAKING](https://ocw.mit.edu/courses/16-410-principles-of-autonomy-and-decision-making-fall-2010/pages/syllabus/)
+[QUANTIFYING UNCERTAINTY](https://ocw.mit.edu/courses/12-s990-quantifying-uncertainty-fall-2012/pages/syllabus/)
+
+Algorithms and Data Structures
+Level:	Graduate
+
+[NETWORK OPTIMIZATION](https://ocw.mit.edu/courses/15-082j-network-optimization-fall-2010/pages/syllabus/)
+// subclass of linear programming
+
+[COMPUTER ALGORITHMS IN SYSTEMS ENGINEERING](https://ocw.mit.edu/courses/1-204-computer-algorithms-in-systems-engineering-spring-2010/pages/lecture-notes/)
+// data structure, divide and conqurer, dynamic programming, branch and bound, linear and non-linear optimization, Approximate Queues and Network Designs
+
+[THE SOFTWARE BUSINESS](https://ocw.mit.edu/courses/15-358-the-software-business-fall-2005/)
+
+operation maangement:
+https://ocw.mit.edu/courses/15-358-the-software-business-fall-2005/
+
+Computer Science
+Algorithms and Data Structures
+Systems Engineering
+Computational Modeling and Simulation
+Systems Optimization
+
 
 ## Greek Numbers
 
@@ -170,10 +249,16 @@ the chi distribution in statistics ( {\displaystyle \chi ^{2}} \chi ^{2} is the 
 the chromatic number of a graph in graph theory
 the Euler characteristic in algebraic topology
 # Ψψ (psi)
-a quaternary combinator in comb	inatory logic
+a quaternary combinator in combinatory logic
 the reciprocal Fibonacci constant
 
 # Ωω (omega)
 in probability theory and statistical mechanics, the set of possible distinct system states
 \omega  represents:
 in probability theory, a possible outcome of an experiment
+
+Iota (i), Iēsoûs (Ἰησοῦς), "Jesus"
+Chi (ch), Khrīstós (Χρῑστός), "anointed"
+Theta (th), Theoû (Θεοῦ), "of God", the genitive singular of Θεóς, Theós, "God"
+Upsilon (y or u), (h)uiós[11] (Yἱός), "Son"
+Sigma (s), sōtḗr (Σωτήρ), "Savior"

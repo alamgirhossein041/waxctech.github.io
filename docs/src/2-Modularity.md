@@ -20,18 +20,21 @@
 - [On the evaluation of the Bunch search-based software modularization algorithm, 2008](https://www.cs.drexel.edu/~bmitchell/assets/pubs/JSC07.pdf)
 - [On the Automatic Modularization of Software Systems Using the Bunch Tool, 2006](https://www.cs.drexel.edu/~bmitchell/assets/pubs/TSE-0035-0304.pdf)
 - [stanford CS 190 - modular design](https://web.stanford.edu/~ouster/cgi-bin/cs190-winter18/lecture.php?topic=modularDesign) //Chapters 4-7, 14 of book
-- **A Philosophy of Software Design, 2nd Edition by John K. Ousterhout (kindle only)
-- **[18 Patterns of Modular Architecture by Kirk Knoernschild](https://dzone.com/asset/download/38831)
+- **[A Philosophy of Software Design, 2nd Edition by John K. Ousterhout, 2021](https://www.amazon.com/Philosophy-Software-Design-2nd-ebook/dp/B09B8LFKQL/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)
+- **[18 Patterns of Modular Architecture by Kirk Knoernschild, 2013](https://dzone.com/asset/download/38831)
 - **Software Specification and Design: An Engineering Approach
 - **Software Design X-Rays  by Adam Tornhill
 - The Modular Way (kindle only)
-- Software Development Measurement Programs (kindle $17)
-- Software Architecture Metrics
 - Design It!: From Programmer to Software Architect
 - Strategic Monoliths and Microservices
 - [uncle bob-The Principles of OOD](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
 - [book: Software Mistakes and Tradeoffs by Tomasz Lelek, Jon Skeet](https://www.amazon.com/Software-Mistakes-Tradeoffs-programming-decisions/dp/1617299200/ref=sr_1_1?crid=33WMJHPW2FWFT&keywords=Software+Mistakes+and+Tradeoffs+by+Tomasz+Lelek&qid=1659366563&sprefix=software+mistakes+and+tradeoffs+by+tomasz+lelek%2Caps%2C646&sr=8-1)
 
+# Springer Research Paper
+[Source Code Modularization: Theory and Techniques,2017](https://www.amazon.com/Source-Code-Modularization-Theory-Techniques/dp/3319633449/ref=sr_1_1?keywords=software+modularization&qid=1659424078&sr=8-1&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc)
+[Emergent Interfaces for Feature Modularization (SpringerBriefs in Computer Science), 2014](https://www.amazon.com/Emergent-Interfaces-Modularization-SpringerBriefs-Computer/dp/3319114921/ref=sr_1_4?keywords=software+modularization&qid=1659424078&sr=8-4)
+***[Interdisciplinary Optimization of Modularization, 2022](https://www.amazon.com/Interdisciplinary-Optimization-Modularization-Marvin-Caspar/dp/3346553035/ref=sr_1_5?keywords=software+modularization&qid=1659424078&sr=8-5&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc)
+[Growing Modular: Mass Customization of Complex Products, Services and Software 2005th Edition](https://www.amazon.com/Growing-Modular-Customization-Products-Services/dp/3540239596/ref=sr_1_14?keywords=software+modularization&qid=1659424154&sr=8-14&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc)
 
 # Modularity Software Design
 [Software, Faster • Dan North • GOTO 2016](https://www.youtube.com/watch?v=USc-yLHXNUg&t=948s)

@@ -10,18 +10,18 @@
 
 
 # Best Practices 
-- [Plan - Probability](1-Maths.md)
+- [Maths - Probability](1-Maths.md)
+- [Maths - Fraud Detection](1-Fraud-Detection.md)
 
-- [Build - Distributed System](2-Distributed.md)
-- [Build - Modularity](2-Modularity.md)
+- [Distributed Services](2-Distributed.md)
+- [Modularity Design](2-Modularity.md)
 
-- [Data - Fraud Detection](3-Fraud-Detection.md)
-- [Data - CEP & Lake House](3-CEP-LakeHouse.md)
+- [Complex Event Processor](3-CEP-LakeHouse.md)
+- [Compliance & Metrics](3-Compliance.md)
 - 
-- [Measure - Metrics](4-Metrics.md)
-- [Measure - Compliance ](4-Compliance.md)
-
 # LifeCycle / Process
+
+
 - [Operation - Social Dynamics](Dynamic-Process.md): OKR, Topology, System Dynamics
 - [Operation - Goal Setting](Team-Goals.md)
 - 

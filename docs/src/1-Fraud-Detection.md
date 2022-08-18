@@ -120,3 +120,18 @@ https://www.marketsandmarkets.com/Market-Reports/fraud-detection-prevention-mark
 
 [impact due to fraud](https://www.forbes.com/sites/jordanmckee/2020/11/22/unpacking-the-overall-impact-of-fraud/?sh=a43067f78914)
 [6% revenue lost due to fraud, 1% to 5% profit spending on fraud](https://www.fisglobal.com/en/insights/merchant-solutions-worldpay/article/the-best-fraud-prevention-strategies-for-ecommerce)
+[average 5% lost on annual revenue](https://businessfraudprevention.org/fraud-statistics/)
+
+# [Key Market Players by report](https://www.alliedmarketresearch.com/fraud-detection-and-prevention-market)
+INTERNATIONAL BUSINESS MACHINES CORPORATION
+NCR CORPORATION (ALARIC SYSTEMS LIMITED)
+ACI WORLDWIDE, INC.
+BAE SYSTEMS, INC.
+FAIR ISAAC CORPORATION
+ORACLE CORPORATION
+SAP SE
+SAS INSTITUTE INC.
+Precisely
+LexisNexis
+
+[Non-Fungible Token (NFT) - Fraud and Money Laundering Risks of Emerging NFT Technology and Trade](https://case.edu/law/our-school/events-lectures/non-fungible-token-nft-fraud-and-money-laundering-risks-emerging-nft-technology-and-trade)
