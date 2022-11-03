@@ -1,19 +1,3 @@
-1. [MIT 6.004 Computation Structures]
-2. [MIT 6.033	Computer Systems Engineering
-3. [MIT 6.045 Automata, Computability, and Complexity
-
-[interview of Michael rabin](https://amturing.acm.org/award_winners/rabin_9681074.cfm)
-[lambda calculus](https://en.wikipedia.org/wiki/Lambda_calculus)
-
-[the art of programming]
-[The Art of Computer Programming: Volume 1: Fundamental Algorithms (July 4, 1997)]()
-[Art of Computer Programming, Volume 2: Seminumerical Algoritsshms (May 6, 2014)]()
-[The Art of Computer Programming: Volume 3: Sorting and Searching (April 24, 1998)]()
-[The Art of Computer Programming, Volume 4A: Combinatorial Algorithms, Part 1 (September 12, 2014)]()
-[The Art of Computer Programming, Volume 4, Fascicle 6: Satisfiability (April 19, 2016)]()
-[The Art of Computer Programming, Volume 4, Fascicle 2: Generating All Tuples and Permutations1st Edition (March 12, 2018)]()
-
-
 [CS video course](https://github.com/Developer-Y/cs-video-courses)
 
 [Stanford CS242 Programming Languages (in Rust)](https://stanford-cs242.github.io/f19/)
@@ -56,12 +40,13 @@ foundation [MIT 6.004 Computation Structures](https://ocw.mit.edu/courses/electr
 - Pipelining the Beta: control hazards, dealing with exceptions
 - Virtual memory: mapping, protection, contexts
 - Virtual machines: timesharing, OS kernels, supervisor calls
-- Devices and interrupts; real-times
+- Devices and interrupts; real-time
 - Communicating processes: semaphores, synchronization, atomicity, deadlock
 - System-level communication
 - Parallel processing: performance limits, data- and thread-level parallelism
 - Building a Better Beta: tips for the design project
 
+[MIT 6.031: Software Construction (in TypeScript)](http://web.mit.edu/6.031/www/sp22/)
 ## Topics
 01: Static Checking
 02: Basic TypeScript
@@ -248,6 +233,7 @@ Week 6: Intractable Problems and NP-completeness
 - Quantum algorithms
 
 
+
 [MIT 18.404 Theory of Computation](https://ocw.mit.edu/courses/mathematics/18-404j-theory-of-computation-fall-2020/index.htm)
 ## Topics
 - Introduction, Finite Automata, Regular Expressions
@@ -305,13 +291,13 @@ Week 6: Intractable Problems and NP-completeness
 [Stanford CS - CS349D: Cloud Computing Technology](https://web.stanford.edu/class/cs349d/)
 
 
+
 ## Stanford Online
 # Mining Massive Data Sets Graduate Certificate
 * CS224W Social and Information Network Analysis
 * CS229 Machine Learning
 * CS246 Mining Massive Data Sets
 * CS276 Information Retrieval and Web Search
-
 
 # Professional  - Stanford Advanced Computer Security Certificate
 https://scpd.stanford.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=1145836

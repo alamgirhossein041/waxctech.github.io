@@ -24,9 +24,11 @@
 ## Phase IV
 -------------------------------
 11. [MIT 18.085 computational science and engineering I 2008](https://ocw.mit.edu/courses/18-085-computational-science-and-engineering-i-fall-2008/)
-12. [MIT 18.086 mathematical methods for engineers II 2006](https://ocw.mit.edu/courses/18-086-mathematical-methods-for-engineers-ii-spring-2006/video_galleries/video-lectures/) // optimization
+12. [MIT 18.086 mathematical methods for engineers II 2006](https://ocw.mit.edu/courses/18-086-mathematical-methods-for-engineers-ii-spring-2006/video_galleries/video-lectures/)
 13. [MIT 18.404j THEORY OF COMPUTATION 2020](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/)
 14. [ADVANCED DATA STRUCTURES](https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/video_galleries/lecture-videos/)
+
+[18.065 MATRIX METHODS IN DATA ANALYSIS, SIGNAL PROCESSING, AND MACHINE LEARNING](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/)
 
 [MIT 18.100 intro to analysis](https://ocw.mit.edu/courses/18-100a-introduction-to-analysis-fall-2012/)
 convex optimization, stanford
