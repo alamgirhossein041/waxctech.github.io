@@ -1,5 +1,14 @@
-# modern programming focus
+all languages and patterns
+[Kotlin Design Patterns and Best Practices, 2022]
+[Programming with Types,2019]
+[TypeScript Quickly 1st Edition // practical example with deno, blockchain, react and vue]
+[Hands-On Design Patterns and Best Practices with Julia: Proven solutions to common problems in software design for Julia 1.x]
+[rust cookbook, including math](https://rust-lang-nursery.github.io/rust-cookbook/intro.html)
+
+# rust modern programming focus
 - speed, stability, concurrency, functional programming
+
+
 
 # Rust Example
 

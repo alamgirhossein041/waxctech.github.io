@@ -1,3 +1,23 @@
+[mathlets](https://mathlets.org/mathlets/)
+
+# JULIA
+Interactive Visualization and Plotting with Julia
+[Algorithms with JULIA: Optimization, Machine Learning, and Differential Equations Using the JULIA, 2022]
+[Statistics with Julia:, 2021](https://www.amazon.com/Statistics-Julia-Fundamentals-Artificial-Intelligence/dp/3030709000/ref=sr_1_1?crid=J5598W3931MX&keywords=springer+julia&qid=1667568695&qu=eyJxc2MiOiIwLjg2IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&s=books&sprefix=springer+jul%2Cstripbooks%2C253&sr=1-1&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0)
+[Numerical Linear Algebra, 2018]
+[Numerical Linear Algebra with Julia, 2021]
+[CALCULUS WITH JULIA](https://jverzani.github.io/CalculusWithJuliaNotes.jl/)
+[jupyter](https://datatofish.com/add-julia-to-jupyter/)
+[python & julia](https://towardsdatascience.com/how-to-best-use-julia-with-jupyter-82678a482677)
+[scientific writing](https://jaantollander.com/post/scientific-writing-with-markdown/)
+[control system](https://juliacontrol.github.io/ControlSystems.jl/latest/)
+Practical Julia, 2023
+Julia as a Second Language, 2023
+Julia for Data Analysis, 2023
+[optimization](https://www.supplychaindataanalytics.com/optimization-with-jump-in-julia/)
+[operation research](https://juliabook.chkwon.net/book)
+//linear optimization, numerical method, network optimization, nonlinear opt, monte carlo methods, lagrangian relaxiation
+
 # Mathematics Courses
 ## Phase I
 1. [khan pre-calculus - 1m](https://www.khanacademy.org/math/precalculus)
@@ -7,8 +27,11 @@
 ## Phase II - optimization 
 [MIT 18.02 Multivariable Calculus 1: Vectors and Derivatives](https://learning.edx.org/course/course-v1:MITx+18.02.1x+1T2022/home)
 [MIT 18.02 Multivariable Calculus 2: Integrals](https://learning.edx.org/course/course-v1:MITx+18.02.2x+2T2022/home)
-[MIT 18.031 Introduction to Differential Equations, 5 courses](https://learning.edx.org/course/course-v1:MITx+18.031x+2T2022/home)
-//intro, 2x2, linear aglebra, fourier series, laplace transform
+
+# from gibert string
+[18.005 Highlights Of Calculus](https://ocw.mit.edu/courses/res-18-005-highlights-of-calculus-spring-2010/pages/related-resources/)
+[MIT 18-009 Learn Differential Equations: Up Close With Gilbert Strang And Cleve Moler, 2015, 67 videos](https://ocw.mit.edu/courses/res-18-009-learn-differential-equations-up-close-with-gilbert-strang-and-cleve-moler-fall-2015/pages/differential-equations-and-linear-algebra/)
+[MIT 18.065 signal processing, optimization, probability, Machine Learning, 2018](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/pages/syllabus/)
 
 ## Phase III - algorithm
 -------------------------------
@@ -18,17 +41,16 @@
 # Prob and Statistics
 9. [MIT 6.041 probability 2010 - 1.5m](https://www.edx.org/course/probability-the-science-of-uncertainty-and-data)
 8. [MIT 18.6501 statistics 2018 - 1m](https://www.edx.org/course/fundamentals-of-statisticse)
-[deep learning ](https://www.edx.org/course/machine-learning-with-python-from-linear-models-to)
 [data analysis](https://www.edx.org/course/statistics-computation-and-applications)
 
-## Phase IV
+## Phase IV (applied linear algebra, applied de, fourier method, algorithm. modelling)
 -------------------------------
 11. [MIT 18.085 computational science and engineering I 2008](https://ocw.mit.edu/courses/18-085-computational-science-and-engineering-i-fall-2008/)
 12. [MIT 18.086 mathematical methods for engineers II 2006](https://ocw.mit.edu/courses/18-086-mathematical-methods-for-engineers-ii-spring-2006/video_galleries/video-lectures/)
-13. [MIT 18.404j THEORY OF COMPUTATION 2020](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/)
-14. [ADVANCED DATA STRUCTURES](https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/video_galleries/lecture-videos/)
 
-[18.065 MATRIX METHODS IN DATA ANALYSIS, SIGNAL PROCESSING, AND MACHINE LEARNING](https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/)
+14. [MIT 18.404j THEORY OF COMPUTATION 2020](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/)
+14. [ADVANCED DATA STRUCTURES](https://ocw.mit.edu/courses/6-851-advancesd-data-structures-spring-2012/video_galleries/lecture-videos/)
+
 
 [MIT 18.100 intro to analysis](https://ocw.mit.edu/courses/18-100a-introduction-to-analysis-fall-2012/)
 convex optimization, stanford
@@ -46,16 +68,14 @@ convex optimization, stanford
 
 [scilab](https://www.scilab.org/software/scilab)
 // domain: signal processing, control, statistics, optimization
-GNU Octave: https://octave.org/
-// compatible with  Matlab scripts
+
 
 [JASP](https://jasp-stats.org/)
 // Frequentist analyses, Bayesian analyses
-https://octave.org/
 
 [linear algbra for everyone:](https://math.mit.edu/~gs/everyone/compare%20LAFE-ILA5I.pdf)
 
-#largest open-source algorithm library (https://the-algorithms.com/)
+[#largest open-source algorithm library](https://the-algorithms.com/)
 
 ## graduated CS course:
 information/compution/complexity theory

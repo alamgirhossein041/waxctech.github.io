@@ -1,3 +1,9 @@
+CEP design
+https://www.sciencedirect.com/topics/engineering/complex-event-processing
+https://developer.hpe.com/blog/better-complex-event-processing-at-scale-using-a-microservices-based-str/
+https://aws.amazon.com/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/
+https://aws.amazon.com/blogs/architecture/event-based-processing-for-asynchronous-communication/
+
 # Event Driven Architecture
 [AWS: Operating Lambda: Understanding event-driven architecture – Part 1, 2021](https://aws.amazon.com/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1/)
 [AWS: Real-time bushfire alerting with Complex Event Processing in Apache Flink on Amazon EMR and IoT sensor network](https://aws.amazon.com/blogs/big-data/real-time-bushfire-alerting-with-complex-event-processing-in-apache-flink-on-amazon-emr-and-iot-sensor-network/)

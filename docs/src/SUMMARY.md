@@ -11,13 +11,13 @@
 
 # Best Practices 
 - [Maths - Probability](1-Maths.md)
-- [Maths - Fraud Detection](1-Fraud-Detection.md)
+- [Maths - Fraud Detection](2-Fraud-Detection.md)
 
-- [Distributed Services](2-Distributed.md)
-- [Modularity Design](2-Modularity.md)
+- [Distributed Services](3-Distributed.md)
+- [Modularity Design](3-Modularity.md)
 
-- [Complex Event Processor](3-CEP-LakeHouse.md)
-- [Compliance & Metrics](3-Compliance.md)
+- [Complex Event Processor](2-CEP-LakeHouse.md)
+- [Compliance & Metrics](1-Compliance.md)
 
 # LifeCycle / Process
 
@@ -28,7 +28,7 @@
 # Technology
 - [Computer Science](Computer-Science.md)
 - [Blockchain](Blockchain.md)
-- [Redis](Redis.md)
+- [Redis](Dev-Redis.md)
 - [Open Source Model](Open-Source.md)
 
 -----------
